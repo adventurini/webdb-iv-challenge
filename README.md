@@ -13,13 +13,13 @@ Design the **data model** for a _recipe book_ application, then use `Knex migrat
 
 The requirements for the system, as stated by the client are:
 
-[ ] have a way to manage dishes. A **dish** is something the client wants to cook, like _pizza_ or _tacos_.
+[x] have a way to manage dishes. A **dish** is something the client wants to cook, like _pizza_ or _tacos_.
         <!-- Create a dishes table -->
 
-[ ] have a way to manage recipes. A **dish** can have different recipes for tacos, like _tex[ ]mex_ or _granny's_. A **recipe** belongs only to one **dish**.
+[x] have a way to manage recipes. A **dish** can have different recipes for tacos, like _tex[ ]mex_ or _granny's_. A **recipe** belongs only to one **dish**.
         <!-- Create a recipes table -->
 
-[ ] have a way to manage ingredients.
+[x] have a way to manage ingredients.
         
 a **recipe** could have more than one **ingredient** and the same **ingredient** can be used in multiple recipes. Examples are _"cup of corn flour"_ or _"gram of butter"_.
         <!-- Create an ingredients table -->
